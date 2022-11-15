@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBH Fitness</title>
+
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+    <body>
+    <!-- Header Secton-->
+    <header>
+        <a href="#" class="logo"><span>IBH</span>FIT</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#trainer">Trainer</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Home Section -->
+    <div class="homeContainer">
+    <section class="home" id="home">
+        
+        <h1>As Long As You're Still Above Ground<br />The Plan Is Still In Motion</h1>
+        <a href="#contact" class="btn">Get Started</a>
+
+    </section>
+    </div>
+
+    <!-- Mission Section -->
+    <section class="mission" id="mission">
+
+        <div class="missionRow">
+
+            <div class="image" alt="">
+                <img src="./images/posingroommirror.jpg">
+            </div>
+
+            <div class="missionContent">
+                <h3>What Our Mission Is</h3>
+                <p>The goal at IBH Fitness is not only to get in shape physically, but mentally and spiritually. The only person responsible for that is the one you look at in the mirror everyday.</p>
+                <p>Once you realize this, you'll achieve things you never imagined, let's work!</p>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h1 class="heading">My Services</h1>
+
+        <div class="box-container">
+            <!-- Will have 3 or 4 services that will be 1 on 1 coaching, online coaching, meal plans, workout plans -->
+            <div class="box">
+                <img src="./images/flexedback.JPG" class="image" alt="">
+                <div class="info">
+                    <h3>Personal Training</h3>
+                    <p>1 on 1 training sessions</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/loadingbarbell.JPG" class="image" alt="">
+                <div class="info">
+                    <h3>Online Training</h3>
+                    <p>Written programs and virtual check ins</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/armsup.jpg" class="image" alt="">
+                <div class="info">
+                    <h3>Workout Programs & Meal Plans</h3>
+                    <p>Various workout programs and meal plans for you</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Trainer section -->
+    <section class="trainer" id="trainer">
+        <h1 class="heading">Trainer</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/dumbbellrack.jpg" alt="">
+                <div class="info">
+                    <h3>Isaiah</h3>
+                </div>
+                <div class="share">
+                    <a href="https://www.instagram.com/ibhfit_/" class ="fab fa-instagram" target="_blank"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact</h1>
+
+        <form action="https://formbold.com/s/91O2o" method="POST" >
+            
+            <div class="inputBox">
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" name="email" placeholder="Your Email" required >
+                <input type="number" name="number" placeholder="Your Number" required>
+            </div>  
+
+            <textarea name="message" id="" cols="30" rows="30"  placeholder="Message" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <section class="footer">
+
+    </section>
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Custom js file link -->
+    <script src="./js/main.js"></script>
+
+    <!-- Javascript email cdn link -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </body>
+</html>
